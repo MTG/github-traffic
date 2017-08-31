@@ -11,7 +11,7 @@ setup(
     url = "https://github.com/MTG/github-traffic",
     packages = ["github_traffic"],
     data_files = [('github_traffic', ['github_traffic/config.ini'])],
-    entry_points = {"console_scripts": ["github_get_traffic=github_traffic.get_traffic.main"]},
+    entry_points = {"console_scripts": ["github_get_traffic=github_traffic.get_traffic:main"]},
     classifiers=[
         "Topic :: Utilities",
         "License :: OSI Approved :: MIT License",
