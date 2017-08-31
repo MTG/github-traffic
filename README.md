@@ -12,7 +12,7 @@ Install this project to a python environment using pip:
 
     pip install git+https://github.com/MTG/github-traffic.git
 
-A script will be installed to `bin/get_github_traffic`
+A script will be installed to `bin/github_get_traffic`
 
 ## Configuration
 
@@ -29,7 +29,7 @@ for a public repository.
 
 Run the script, specifying the path to the config file and the output directory:
 
-    get_github_traffic -c gh_traffic/config.ini -o gh_traffic
+    github_get_traffic -c gh_traffic/config.ini -o gh_traffic
 
 This script can be run via cron once a week to keep a full record of historical data.
 
