@@ -18,7 +18,7 @@ A script will be installed to `bin/github_get_traffic`
 
 Create a directory to save the output of the script to.
 
-Copy the configuration file, `config.ini`. You can put it in the same directory
+Copy the configuration file, `github_traffic/config.ini`. You can put it in the same directory
 that you create above.
 
 Open GitHub settings, and go to the section *Personal access tokens*. Create a new
